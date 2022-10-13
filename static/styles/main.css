@@ -4,20 +4,19 @@ html {
     padding: 0;
 }
 
-body {
+body, header, main, footer {
     margin: 0;
     padding: 0;
 }
 
 header {
-    height: 100px;
+    height: 60px;
 }
 
 main {
-    
+    min-height: 600px;
 }
 
 footer {
-
-    height: 400px;
+    min-height: 100px;
 }
