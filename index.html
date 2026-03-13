@@ -7,7 +7,7 @@
   <meta name="description" content="Vulcan CI is a contemporary continuous integration and software build system. Forged for modern development workflows.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;500;600;700&family=IBM+Plex+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <style>
     *, *::before, *::after {
       margin: 0;
@@ -25,11 +25,12 @@
       --text-primary: #e8e2d9;
       --text-muted: #6b6872;
       --steel: #2a2a30;
+      --text-standard: #9a959e;
       --steel-light: #3a3a42;
     }
 
     html {
-      font-family: 'IBM Plex Mono', monospace;
+      font-family: Arial, sans-serif;
       background: var(--bg-deep);
       color: var(--text-primary);
       overflow-x: hidden;
@@ -123,8 +124,8 @@
       color: var(--text-muted);
       text-decoration: none;
       display: flex;
-      align-items: center;
-      gap: 0.75rem;
+      align-items: flex-end;
+      gap: 0.4rem;
     }
 
     .wordmark svg {
@@ -218,7 +219,7 @@
     }
 
     .hero-sub {
-      font-size: clamp(0.85rem, 1.8vw, 1.1rem);
+      font-size: clamp(1.02rem, 2.16vw, 1.32rem);
       font-weight: 300;
       color: var(--text-muted);
       letter-spacing: 0.06em;
@@ -313,9 +314,9 @@
     }
 
     .feature p {
-      font-size: 0.75rem;
+      font-size: 0.9rem;
       font-weight: 300;
-      color: var(--text-muted);
+      color: var(--text-standard);
       line-height: 1.6;
     }
 
@@ -377,7 +378,7 @@
   <!-- Header -->
   <header>
     <a href="/" class="wordmark">
-      <img src="/static/fire-red.svg" alt="Vulcan CI" width="28" height="28">
+      <img src="/static/fire-red.svg" alt="Vulcan CI" width="22" height="22" style="margin-bottom: 5px;">
       vulcan ci
     </a>
     <a href="https://github.com/vulcan-ci" class="nav-link" target="_blank" rel="noopener">
@@ -390,7 +391,7 @@
   <main class="hero">
     <h1 class="hero-title">Vulcan<span class="accent"> CI</span></h1>
     <hr class="hero-rule">
-    <p class="hero-sub">Coming soon — a contemporary continuous integration &amp; build service</p>
+    <p class="hero-sub">Coming soon — a contemporary<br>continuous integration &amp; build service</p>
     <div class="status-badge">
       <span class="status-dot"></span>
       Forging in progress
