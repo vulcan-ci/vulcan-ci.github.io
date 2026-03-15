@@ -281,8 +281,10 @@
       grid-template-columns: repeat(3, 1fr);
       gap: 1px;
       background: var(--steel);
-      border-top: 1px solid var(--steel);
-      border-bottom: 1px solid var(--steel);
+      margin: 0 30px;
+      border-radius: 8px;
+      overflow: hidden;
+      border: 1px solid var(--steel);
       animation: fade-up 1s 1.1s cubic-bezier(0.16, 1, 0.3, 1) both;
     }
 
@@ -401,19 +403,16 @@
   <!-- Feature hints -->
   <section class="features">
     <div class="feature">
-      <div class="feature-icon">⚡</div>
       <h3>Blazing Builds</h3>
       <p>Parallel execution with intelligent caching for rapid feedback loops</p>
     </div>
     <div class="feature">
-      <div class="feature-icon">🛡</div>
       <h3>Integrated Security</h3>
-      <p>Security for your system and artefacts as a first-class feature — the first CI built to be secure from day one</p>
+      <p>Security for your system and artefacts as a first-class feature — built to be secure from day one</p>
     </div>
     <div class="feature">
-      <div class="feature-icon">🤖</div>
       <h3>AI-Native</h3>
-      <p>The first CI system built from the ground up for AI-driven development</p>
+      <p>The first CI system built from the ground up to enable rapid AI-driven development</p>
     </div>
   </section>
 
